@@ -133,3 +133,23 @@ height: 0;
     background-repeat: repeat;
     background-size: cover;
 }
+
+@keyframes animateScroll {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .animate__animated {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+  }
+  
+  .animate-scroll:hover {
+    animation-name: animateScroll;
+  }
