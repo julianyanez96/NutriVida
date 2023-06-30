@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* -------comienzo css cards y nav-------- */
+#btn {
+    background-color: #6ecf42;
+    color: white;
+
+}
+
+#btn:hover {
+    background-color: white;
+    color: #6ecf42;
+}
+
+.hiper {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#titulocards,
+.titulo-nosotros,
+.marca {
+    color: #6ecf42;
+}
+
+.colortexto,
+#recetas h2,
+.bienvenidos,
+.nosotros-marca {
+    color: #5d5f5c;
+}
+
+.card {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#barra-nav {
+    background-color: #6ecf42;
+}
+
+/* comienzo animacion nav degradado*/
+@keyframes gradient-animation {
+    0% {
+        background-color: #65c13b;
+    }
+
+    25% {
+        background-color: #4dab22;
+    }
+
+    75% {
+        background-color: #21a744;
+    }
+
+    100% {
+        background-color: #45c326;
+    }
+}
+
+.navbar {
+    animation: gradient-animation 5s infinite;
+}
+
+/* fin animacion nav degradado*/
+/* ------fin css card destacadas + nav ----*/
+/* -------comienzo css footer-------- */
+.iconos,
+#recetas h1,
+h4{
+    color: #6ecf42;
+}
+
+/* inicio animacion iconos footer */
+.icono-social {
+    width: 25px;
+    animation: icono 5s infinite
+}
+
+.icono-social:hover {
+    rotate: 60deg;
+}
+
+@keyframes icono {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* fin animacion iconos footer */
+/* comienzo animacion mapa */
+.mapa {
+    transition: all 0.7s ease-out;
+    animation: mapain 1.5s ease;
+    position: relative
+}
+
+.mapa:hover {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in;
+}
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position:relative;
+height: 0;
+}
+
+.map-responsive iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+/* fin animacion mapa */
+
+.img-receta,
+#contacto {
+    border-radius: 1%;
+}
+
+#menu {
+    background-image: url(img/fondo-body-1.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+}

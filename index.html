@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="empresa de viandas saludables">
+    <meta name="keywords" content="comida saludable, viandas, recetas, calorias, salud, bienestar">
+    <link rel="icon" href="img/starbucksfavicon.png" type="image/x-icon">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- iconos Bosstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- animaciones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- fuente -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="Icon/Icon_head.png">
+    <title>Guaymas Vanesa - Yañez julian- Lombardi florencia- TP3 - DMN2BV - 2023</title>
+</head>
+
+<body id="body">
+    <!-- comienzo nav-->
+    <nav id="barra-nav" class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="logo" width="80" height="60" class="d-inline-block align-text-top"
+                    id="logo-inicio">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#menu">Destacadas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#recetas">Recetas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#faq-section">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- fin nav-->
+    <section id="nosotros" class="bg-light">
+        <div class="menu pt-5">
+            <div class="container text-center pb-5">
+                <div class="row text-center pt-5" id="titulocards">
+                    <h1 class="fs-1 fw-bold titulo-nosotros">Nosotros</h1>
+                </div>
+                <hr>
+                <h2 class="fs-3 fw-bold bienvenidos">¡Bienvenido/a a nuestra página web!
+                    <hr>
+                </h2>
+                <p class="fs-3 nosotros-marca fw-semibold">En <span class="fs-3 marca fw-bold">Nutrivida</span>, nos
+                    dedicamos a brindarte soluciones para que comas saludable y mejore tu bienestar. Descubre recetas
+                    digitales saludables y recibe ideas semanales para simplificar tus comidas.</p>
+                <p class="fs-3 nosotros-marca fw-semibold">
+                    ¡Comienza hoy mismo tu
+                    viaje hacia un estilo de vida saludable con nosotros!
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- comienzo de carousel-->
+    <header>
+        <div id="propagandas" class="carousel slide carousel-fade">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#propagandas" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#propagandas" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#propagandas" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/caraousel-mod-1.png" class="d-block w-100" alt="comparte tu receta">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/caraousel-mod-2.png" class="d-block w-100" alt="aguas saborizadas">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/caraousel-mod-3.png" class="d-block w-100" alt="menu semanal">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#propagandas" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#propagandas" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+    <!-- fin carousel-->
+
+    <!-- comienzo cards-->
+    <section id="menu">
+        <div class="menu pt-5">
+            <div class="container text-center">
+                <div class="row text-center pt-5" id="titulocards">
+                    <h1 class="fs-1 fw-bold"> Destacadas</h1>
+                </div>
+                <hr>
+                <div class="row py-2">
+                    <div class=" py-2 col-lg-4">
+                        <div id="card" class="card animate__animated animate__backInDown">
+                            <img src="img/wok.png" class="card-img-top img-fluid" alt="wok">
+                            <div class="card-body">
+                                <h4 class="card-title text-center colortexto">Wok de pollo y vegetales</h4>
+                                <p class="card-text colortexto"> 330 kcal / 33,5 g prot / 19,8 g carbo </p>
+                                <button type="button" id="btn" class="btn btn-light"><a href="#receta1"
+                                        class="hiper">Ver Receta</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" py-2 col-lg-4">
+                        <div id="card" class="card animate__animated animate__backInDown">
+                            <img src="img/wok-vegetales.png" class="card-img-top img-fluid" alt="vegetales">
+                            <div class="card-body">
+                                <h4 class="card-title text-center colortexto">Wok de carne y vegetales</h4>
+                                <p class="card-text colortexto"> 382 kcal / 27,5 g prot / 22,4 g carbo </p>
+                                <button type="button" id="btn" class="btn btn-light"><a href="#receta2"
+                                        class="hiper">Ver Receta</a></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" py-2 col-lg-4">
+                        <div id="card" class="card animate__animated animate__backInDown">
+                            <img src="img/wok-langostinos.png" class="card-img-top img-fluid" alt="langostinos">
+                            <div class="card-body">
+                                <h4 class="card-title text-center colortexto">Wok de langostinos y vegetales</h4>
+                                <p class="card-text"> 259 kcal / 27,8 g prot / 23,3 g carbo </p>
+                                <button type="button" id="btn" class="btn btn-light"><a href="#receta3"
+                                        class="hiper">Ver Receta</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin cards-->
+    <!-- Comienzo recetas-->
+    <section id="recetas" class="recetas bg-light pb-5 ">
+        <div class="container">
+            <div class="row">
+                <div class="col text-center my-5">
+                    <h1 class="fw-bold">Recetas</h1>
+                    <h2 class="fw-medium">Sabores que te cuidan</h2>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row" id="receta1">
+                <!--receta 1-->
+                <div class="col-lg-6">
+                    <img src="img/receta-1.png" alt="Imagen de la receta" class="img-fluid img-receta">
+                </div>
+                <div class="col-lg-6">
+                    <h2>1- Wok de pollo y vegetales</h2>
+                    <h4>Ingredientes:</h4>
+                    <ul>
+                        <li>200 g de pechuga de pollo deshuesada y sin piel, cortada en tiras delgadas</li>
+                        <li>1 cucharada de aceite de oliva</li>
+                        <li>1 diente de ajo, picado finamente</li>
+                        <li>1 cucharadita de jengibre fresco, rallado</li>
+                        <li>1 zanahoria grande, cortada en rodajas finas</li>
+                        <li>1 pimiento rojo, cortado en tiras delgadas</li>
+                        <li>1 pimiento verde, cortado en tiras delgadas</li>
+                        <li>1 taza de brócoli, separado en floretes pequeños</li>
+                        <li>1 taza de champiñones, en rodajas</li>
+                        <li>2 cucharadas de salsa de soja baja en sodio</li>
+                        <li>1 cucharada de salsa de ostras</li>
+                        <li>Sal y pimienta al gusto</li>
+                        <li>1 cucharada de semillas de sésamo (opcional)</li>
+                    </ul>
+                    <button id="btn" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#receta1"
+                        aria-expanded="false" aria-controls="receta1">
+                        Ver instrucciones
+                    </button>
+                    <div class="collapse mt-3" id="receta1">
+                        <h4>Instrucciones:</h4>
+                        <ol>
+                            <li>En un wok o sartén grande, calienta el aceite de oliva a fuego medio-alto.</li>
+
+                            <li> Agrega el ajo y el jengibre rallado, y saltea durante unos segundos hasta que estén
+                                fragantes.
+                            </li>
+
+                            <li>
+                                Añade las tiras de pollo al wok y cocina hasta que estén doradas y cocidas por completo.
+                                Retira el pollo del wok y reserva.
+                            </li>
+
+                            <li>
+                                En el mismo wok, agrega la zanahoria, los pimientos, el brócoli y los champiñones.
+                                Saltea
+                                durante unos minutos hasta que los vegetales estén tiernos pero aún crujientes.
+                            </li>
+
+                            <li>Regresa el pollo al wok y mezcla bien con los vegetales.</li>
+
+                            <li>
+                                En un tazón pequeño, mezcla la salsa de soja y la salsa de ostras. Vierte esta mezcla
+                                sobre el pollo y los vegetales en el wok. Cocina por un par de minutos más, revolviendo
+                                constantemente, hasta que todo esté bien combinado y caliente.
+                            </li>
+
+                            <li>Sazona con sal y pimienta al gusto.</li>
+
+                            <li>
+                                Si deseas, espolvorea semillas de sésamo por encima para agregar un toque de sabor
+                                adicional.
+                            </li>
+
+                            <li>Retira del fuego y sirve caliente.</li>
+                        </ol>
+                        <p>Esta receta de wok de pollo y vegetales debería tener aproximadamente 330 kcal por porción,
+                            33,5 g de proteínas y 19,8 g de carbohidratos. Recuerda que estos valores pueden variar
+                            ligeramente según los ingredientes específicos que utilices. ¡Disfruta tu comida!</p>
+                    </div>
+                </div>
+                <!--fin receta 1-->
+            </div>
+            <hr>
+            <!--receta 2-->
+            <div class="row" id="receta2">
+                <div class="col-lg-6 ">
+                    <h2>2- wok de langostinos con vegetales</h2>
+                    <h3>Ingredientes:</h3>
+                    <ul>
+                        <li>200 g de langostinos, pelados y desvenados</li>
+                        <li>1 cucharada de aceite de oliva</li>
+                        <li>1 diente de ajo, picado finamente</li>
+                        <li>1 cucharadita de jengibre fresco, rallado</li>
+                        <li>1 zanahoria grande, cortada en rodajas finas</li>
+                        <li>1 pimiento rojo, cortado en tiras delgadas</li>
+                        <li>1 pimiento verde, cortado en tiras delgadas</li>
+                        <li>1 taza de brócoli, separado en floretes pequeños</li>
+                        <li>1 taza de coliflor, separada en floretes pequeños</li>
+                        <li>2 cucharadas de salsa de soja baja en sodio</li>
+                        <li>1 cucharada de salsa de pescado</li>
+                        <li>Sal y pimienta al gusto</li>
+                        <li>1 cucharada de cilantro fresco picado (opcional)</li>
+                    </ul>
+                    <button id="btn" class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#receta1"
+                        aria-expanded="false" aria-controls="receta1">
+                        Ver instrucciones
+                    </button>
+                    <div class="collapse mt-3" id="receta1">
+                        <h3>Instrucciones:</h3>
+                        <ol>
+                            <li>En un wok o sartén grande, calienta el aceite de oliva a fuego medio-alto.
+                            </li>
+
+                            <li>Agrega el ajo y el jengibre rallado, y saltea durante unos segundos hasta que estén
+                                fragantes.
+                            </li>
+
+                            <li>
+                                Añade los langostinos al wok y cocínalos hasta que se vuelvan rosados y estén cocidos
+                                por completo. Retira los langostinos del wok y reserva.
+                            </li>
+
+                            <li>
+                                En el mismo wok, agrega la zanahoria, los pimientos, el brócoli y la coliflor. Saltea
+                                durante unos minutos hasta que los vegetales estén tiernos pero aún crujientes.
+                            </li>
+
+                            <li>Regresa los langostinos al wok y mezcla bien con los vegetales.</li>
+
+                            <li>
+                                En un tazón pequeño, mezcla la salsa de soja y la salsa de pescado. Vierte esta mezcla
+                                sobre los langostinos y los vegetales en el wok. Cocina por un par de minutos más,
+                                revolviendo constantemente, hasta que todo esté bien combinado y caliente.
+                            </li>
+
+                            <li>Sazona con sal y pimienta al gusto.</li>
+
+                            <li>
+                                Si deseas, espolvorea cilantro fresco picado por encima para darle un toque de frescura.
+                            </li>
+
+                            <li>Retira del fuego y sirve caliente.</li>
+                        </ol>
+                        <p>Esta receta de wok de langostinos y vegetales debería tener aproximadamente 259 kcal por
+                            porción, 27,8 g de proteínas y 23,3 g de carbohidratos. Recuerda que estos valores pueden
+                            variar ligeramente según los ingredientes específicos que utilices. ¡Disfruta tu comida!</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-3">
+                    <img src="img/receta-2.png" alt="Imagen de la receta" class="img-fluid img-receta">
+                </div>
+            </div>
+            <!--fin receta 2-->
+            <hr>
+            <!--receta 3-->
+            <div class="row" id="receta3">
+                <div class="col-lg-6">
+                    <img src="img/receta-3.png" alt="Imagen de la receta" class="img-fluid img-receta">
+                </div>
+                <div class="col-lg-6">
+                    <h2>3- wok de carne con vegetales </h2>
+                    <h3>Ingredientes:</h3>
+                    <ul>
+                        <li>200 g de carne de res (filete, solomillo o carne para wok), cortada en tiras delgadas</li>
+                        <li>1 cucharada de aceite de oliva</li>
+                        <li>1 diente de ajo, picado finamente</li>
+                        <li>1 cucharadita de jengibre fresco, rallado</li>
+                        <li>1 zanahoria grande, cortada en rodajas finas</li>
+                        <li>1 pimiento rojo, cortado en tiras delgadas</li>
+                        <li>1 pimiento verde, cortado en tiras delgadas</li>
+                        <li>1 taza de brócoli, separado en floretes pequeños</li>
+                        <li>1 taza de champiñones, en rodajas</li>
+                        <li>2 cucharadas de salsa de soja baja en sodio</li>
+                        <li>1 cucharada de salsa de ostras</li>
+                        <li>Sal y pimienta al gusto</li>
+                        <li>1 cucharada de semillas de sésamo (opcional)</li>
+                    </ul>
+                    <button id="btn" class="btn mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#receta1"
+                        aria-expanded="false" aria-controls="receta1">
+                        Ver instrucciones
+                    </button>
+                    <div class="collapse mt-3" id="receta1">
+                        <h3>Instrucciones:</h3>
+                        <ol>
+                            <li>En un wok o sartén grande, calienta el aceite de oliva a fuego medio-alto.</li>
+
+                            <li> Agrega el ajo y el jengibre rallado, y saltea durante unos segundos hasta que estén
+                                fragantes.
+                            </li>
+
+                            <li>
+                                Añade la carne de res al wok y cocina hasta que esté dorada y cocida al punto deseado.
+                                Retira la carne del wok y reserva.
+                            </li>
+
+                            <li>
+                                En el mismo wok, agrega la zanahoria, los pimientos, el brócoli y los champiñones.
+                                Saltea
+                                durante unos minutos hasta que los vegetales estén tiernos pero aún crujientes.
+                            </li>
+
+                            <li>Regresa el pollo al wok y mezcla bien con los vegetales.</li>
+
+                            <li>
+                                En un tazón pequeño, mezcla la salsa de soja y la salsa de ostras. Vierte esta mezcla
+                                sobre el pollo y los vegetales en el wok. Cocina por un par de minutos más, revolviendo
+                                constantemente, hasta que todo esté bien combinado y caliente.
+                            </li>
+
+                            <li>Sazona con sal y pimienta al gusto.</li>
+
+                            <li>
+                                Si deseas, espolvorea semillas de sésamo por encima para agregar un toque de sabor
+                                adicional.
+                            </li>
+
+                            <li>Retira del fuego y sirve caliente.</li>
+                        </ol>
+                        <p>Esta receta de wok de carne con vegetales debería tener aproximadamente 382 kcal por porción,
+                            27,5 g de proteínas y 22,4 g de carbohidratos. Recuerda que estos valores pueden variar
+                            ligeramente según los ingredientes específicos que utilices. ¡Disfruta tu comida!</p>
+                    </div>
+                </div>
+            </div>
+            <!--fin receta 3-->
+        </div>
+    </section>
+    <!-- fin recetas-->
+    <!-- comienzo cards chef-->
+    <section id="chef">
+        <div class="chef pt-5">
+            <div class="container text-center">
+                <div class="row text-center pt-5" id="titulocards">
+                    <h1 class="fs-1 fw-bold"> Nuestros profesionales</h1>
+                </div>
+                <hr>
+                <div class="row py-2">
+                    <div class=" py-2 col-lg-3 col-md-6">
+                        <div id="card" class="card animate__animated animate__backInDown">
+                            <img src="img/chef-Christophe.png" class="card-img-top img-fluid" alt="chef christophe">
+                            <div class="card-body">
+                                <h4 class="card-title text-center colortexto fw-bold">Christophe Krywonis</h4>
+                                <button id="btn" class="btn mb-2" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#christophe" aria-expanded="false" aria-controls="receta1">
+                                    Trayectoria
+                                </button>
+                                <div class="collapse mt-3" id="christophe">
+                                    <p class="card-text colortexto"> Es el Chef francés más argentino de todos. Comenzó
+                                        su
+                                        carrera en su país natal, y floreció en Buenos Aires, donde se convirtió en uno
+                                        de
+                                        los referentes más destacados de la culinaria francesa. Además de haber
+                                        trabajado en
+                                        reconocidos establecimientos culinarios, ser propietario de un prestigioso
+                                        resto,
+                                        Christophe conquistó el cariño de la gente a partir de su participación como
+                                        jurado
+                                        del reality Master Chef.</p>
+                                    <button type="button" id="btn" class="btn btn-light"><a
+                                            href="https://www.instagram.com/mundochristophe/"
+                                            class="hiper">Síguelo</a></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" py-2 col-lg-3 col-md-6">
+                        <div id="card" class="card animate__animated animate__backInDown">
+                            <img src="img/chef-dolli.png" class="card-img-top img-fluid" alt="chef dolli irigoyen">
+                            <div class="card-body">
+                                <h4 class="card-title text-center colortexto fw-bold">Dolli Irigoyen</h4>
+                                <button id="btn" class="btn mb-2" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#dolli" aria-expanded="false" aria-controls="receta1">
+                                    Trayectoria
+                                </button>
+                                <div class="collapse mt-3" id="dolli">
+                                    <p class="card-text colortexto">Dolli Irigoyen es una reconocida chef argentina de
+                                        proyección internacional, nacida en General Las Heras, maestra de cocina,
+                                        comunicadora social y desarrolladora de emprendimientos gastronómicos. Atrae a
+                                        amantes de la buena cocina, por
+                                        su contundente experiencia y calidez, participando siempre con propuestas
+                                        originales,
+                                        elegantes y respetuosas de nuestros productos. </p>
+                                    <button type="button" id="btn" class="btn btn-light"><a
+                                            href="https://www.instagram.com/dolliirigoyen/"
+                                            class="hiper">Síguelo</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" py-2 col-lg-3 col-md-6">
+                        <div id="card" class="card animate__animated animate__backInDown">
+                            <img src="img/chef-donato.jpg.png" class="card-img-top img-fluid" alt="chef donato">
+                            <div class="card-body">
+                                <h4 class="card-title text-center colortexto">Donato de Santis</h4>
+                                <button id="btn" class="btn mb-2" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#donato" aria-expanded="false" aria-controls="#donato">
+                                    Trayectoria
+                                </button>
+                                <div class="collapse mt-3" id="donato">
+                                    <p class="card-text"> Donato de Santis tiene una larga trayectoria como cocinero en
+                                        la
+                                        televisión argentina y cuando sus raíces están en Italia, adoptó al país como
+                                        propio. Desde 2000 reside en Buenos Aires, donde fundó su propio restaurante,
+                                        Cucina
+                                        Paradiso. Ha conducido numerosos programas televisivos e integró el jurado de la
+                                        versión argentina de MasterChef en 2014 y 2015 y Dueños de la cocina en 2016.
+                                        Desde
+                                        2020, participa en MasterChef Celebrity</p>
+                                    <button type="button" id="btn" class="btn btn-light"><a
+                                            href="https://www.instagram.com/donatodesantis/?hl=es-la"
+                                            class="hiper">Síguelo</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" py-2 col-lg-3 col-md-6">
+                        <div id="card" class="card animate__animated animate__backInDown">
+                            <img src="img/dr-cormillot.png" class="card-img-top img-fluid" alt="Dr. Cormillot">
+                            <div class="card-body">
+                                <h4 class="card-title text-center colortexto">Dr. Alberto Cormillot</h4>
+                                <button id="btn" class="btn mb-2" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#cormillot" aria-expanded="false" aria-controls="#cormillot">
+                                    Trayectoria
+                                </button>
+                                <div class="collapse mt-3" id="cormillot">
+                                    <p class="card-text">
+                                        Alberto Cormillot es un médico argentino especializado en nutrición y obesidad.
+                                        Se desempeña como educador para la salud, escritor, conferencista y comunicador
+                                        social. Fue ministro de Acción Social en la provincia de Buenos Aires y
+                                        secretario de Calidad de Vida de la Ciudad de Buenos Aires.
+                                    </p>
+                                    <button type="button" id="btn" class="btn btn-light"><a
+                                            href="https://www.instagram.com/drcormi/?hl=es-la"
+                                            class="hiper">Síguelo</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- fin cards chef-->
+
+    <!-- Video -->
+    <div class="container mt-3">
+        <div class="ratio ratio-16x9">
+            <iframe src="Video/video_nutrivida.mp4" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <!-- Testimonios -->
+    <div class="container">
+        <div class="row">
+            <div class="text-center my-5">
+                <h4 class="fw-bold fs-1">¡Clientes felices!</h4>
+                <p>Descubre cómo nuestra comida saludable ha transformado la vida de nuestros clientes.</p>
+            </div>
+        </div>
+        <div class="row py-2 d-flex justify-content-center">
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded col-lg-3 py-5 px-3 mb-3 text-center mx-2">
+                <img src="img/testimonio_1.png" class="img-fluid" alt="testimonio">
+                <h5 class="fw-medium my-3 colortexto fw-semibold">Maria Constanza</h5>
+                <p>¡Increíble variedad de opciones saludables! Me encanta encontrar un lugar donde puedo disfrutar de
+                    comida deliciosa y al mismo tiempo cuidar mi salud. Los ingredientes son frescos y de alta calidad,
+                    y los platos están bien equilibrados. Definitivamente recomiendo este sitio para aquellos que deseen
+                    alimentarse de manera saludable sin sacrificar el sabor".</p>
+            </div>
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded col-lg-3 py-5 px-3 mb-3 text-center mx-2">
+                <img src="img/testimonio_2.png" class="img-fluid" alt="testimonio">
+                <h5 class="fw-medium my-3 colortexto fw-semibold">Gabriela Jimenez</h5>
+                <p>"¡Una experiencia culinaria saludable excepcional! Este lugar realmente sabe cómo crear platos que
+                    son buenos para ti y saben deliciosos al mismo tiempo. Además de ofrecer opciones vegetarianas y
+                    veganas, también tienen alternativas sin gluten, lo cual es genial para las personas con
+                    restricciones alimentarias. La presentación de los platos es impecable, y el personal es amable y
+                    servicial. ¡No puedo esperar para probar más opciones del menú!"</p>
+            </div>
+            <div class="shadow p-3 mb-5 bg-body-tertiary rounded col-lg-3 py-5 px-3 mb-3 text-center mx-2">
+                <img src="img/testimonio_3.png" class="img-fluid" alt="testimonio">
+                <h5 class="fw-medium my-3 colortexto fw-semibold">Emilia del Valle</h5>
+                <p>"Finalmente encontré un lugar donde puedo disfrutar de comida deliciosa sin sentirme culpable. La
+                    calidad de los ingredientes es evidente en cada bocado, y la atención al detalle en la preparación
+                    de los platos es impresionante. Además, ofrecen opciones para llevar, lo cual es perfecto para
+                    aquellos días ocupados en los que no puedo cocinar en casa. Definitivamente mi nuevo lugar favorito
+                    para comer sano".</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Preguntas frecuentes -->
+    <section id="faq-section">
+        <div class="container">
+            <h2 class="text-center mb-5 pt-5">Preguntas Frecuentes</h2>
+            <div class="accordion" id="desplegable">
+                <!-- Pregunta 1 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            ¿Cómo puedo adaptar las recetas a mis necesidades dietéticas o restricciones alimentarias?
+                        </button>
+                    </h3>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#desplegable">
+                        <div class="accordion-body">
+                            <p>Nuestras recetas están diseñadas para ser versátiles y adaptables. Puedes hacer ajustes
+                                según tus necesidades dietéticas o restricciones alimentarias, como sustituir
+                                ingredientes o ajustar las porciones.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pregunta 2 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            ¿Proporcionan información nutricional para sus recetas?
+                        </button>
+                    </h3>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#desplegable">
+                        <div class="accordion-body">
+                            <p>Sí, proporcionamos información nutricional detallada para nuestras recetas. Esto incluye
+                                el contenido de calorías, grasas, carbohidratos, proteínas y otros nutrientes
+                                importantes.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pregunta 3 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            ¿Tienen opciones de recetas para personas con alergias alimentarias?
+                        </button>
+                    </h3>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#desplegable">
+                        <div class="accordion-body">
+                            <p>Sí, tenemos recetas adaptadas para personas con alergias alimentarias. Proporcionamos
+                                alternativas y sugerencias de ingredientes para ayudarte a disfrutar de nuestras recetas
+                                sin preocupaciones.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pregunta 4 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            ¿Puedo imprimir o guardar las recetas para usarlas más adelante?
+                        </button>
+                    </h3>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#desplegable">
+                        <div class="accordion-body">
+                            <p>Sí, todas nuestras recetas son imprimibles y puedes guardarlas para usarlas más adelante.
+                                Utiliza la opción de impresión o guarda la página como PDF para tener acceso rápido y
+                                fácil a las recetas.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Pregunta 5 -->
+                <div class="accordion-item">
+                    <h3 class="accordion-header" id="headingFive">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            ¿Cómo puedo contactarlos si tengo preguntas adicionales sobre las recetas o necesito ayuda
+                            con algún paso en particular?
+                        </button>
+                    </h3>
+                    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                        data-bs-parent="#desplegable">
+                        <div class="accordion-body">
+                            <p>Puedes contactarnos a través de nuestra página de contacto o utilizando la información de
+                                contacto proporcionada en nuestro sitio web. Estaremos encantados de ayudarte con
+                                cualquier pregunta o inquietud relacionada con nuestras recetas.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- comienzo formulario de contacto -->
+    <div class="container my-5 " id="contacto">
+        <div class="row">
+            <div class="col-12 mb-3">
+                <h4 class="fw-semibold fs-1">¡Conéctate con nosotros!</h4>
+            </div>
+            <form class="col-lg-6" action="https://formsubmit.co/florencia.lombardi@davinci.edu.ar" method="POST">
+                <div class="mb-3 col-xs-12 col-md-12 col-lg-10">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3 col-xs-12 col-md-12 col-lg-10">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3 col-xs-12 col-md-12 col-lg-10">
+                    <label for="email" class="form-label">Correo electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3 col-xs-12 col-md-12 col-lg-10">
+                    <label for="telefono" class="form-label">Telèfono</label>
+                    <input type="text" class="form-control" id="telefono">
+                </div>
+                <div class="mb-3 col-xs-12 col-md-12 col-lg-10">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+                <div class="mb-3 col-xs-12 col-md-12 col-lg-6 form-check">
+                    <input type="checkbox" class="form-check-input" id="check">
+                    <label class="form-check-label" for="check">Acepto los terminos y condiciones</label>
+                </div>
+                <button id="btn" type="submit" id="btn" class="btn mb-3">Enviar</button>
+            </form>
+            <!-- Mapa -->
+            <div class="col-lg-6 mapa mb-5">
+                <ratio class="ratio16x9">
+                    <div class="map-responsive">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.992844153815!2d-58.39857512336127!3d-34.60434245753278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaea670d4e67%3A0x2198c954311ad6d9!2sDa%20Vinci%20%7C%20Primera%20Escuela%20de%20Arte%20Multimedial!5e0!3m2!1ses!2sar!4v1687652100250!5m2!1ses!2sar"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                            ariahidden="false" tabindex="0"></iframe>
+                    </div>
+                </ratio>
+            </div>
+        </div>
+    </div>
+    <!-- fin formulario de contacto-->
+    <!-- comienzo de footer -->
+    <footer class="bg-dark">
+        <div class="container">
+            <div class="row p-4  text-white">
+                <div class="col-xs-12 col-md-6 col-lg-3">
+                    <figure><a href="#"><img src="img/logo.png" class="img-fluid" alt="logo nutrivida"></a></figure>
+                    <p class="fs-6 fw-ligh text-secondary">Diseñado y construido por los alumnos de diseño
+                        multimedial.</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3">
+                    <p class="h5  fs-5 fw-bold">Contacto</p>
+                    <p class="mb-1"><i class="bi bi-geo-alt  iconos mx-2"></i>Av. Siempreviva 123</p>
+                    <p class="mb-1"><i class="bi bi-envelope iconos mx-2"></i>Info@nutrivida.com.ar</p>
+                    <p class="mb-1"><s class="bi bi-clock iconos mx-2"></s>Lunes a Viernes de 9 a 20 hs</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3">
+                    <p class="h5 fw-light fs-5 fw-bold">Alumnos</p>
+                    <p class="mb-1">Guaymàs Vanesa</p>
+                    <p class="mb-1">Lombardi Florencia</p>
+                    <p class="mb-1">Yañez Julian</p>
+                    <p class="mb-1">Maquetado y desarrollo</p>
+                    <p class="mb-1">Comisiòn: DMN</p>
+                    <p class="mb-1">2023</p>
+                </div>
+                <div class="col-md-6 col-lg-3 mb-3">
+                    <p class="h5 fs-5 fw-bold">Informaciòn</p>
+                    <p class="mb-1"><i class="bi bi-telephone iconos mx-2"></i>+59 (387) 6123456</p>
+                    <div class="my-3 text-success">
+                        <a href="https://www.instagram.com/"><img src="Icon/instagram.png" class="icono-social"
+                                alt="instagram"></a>
+                        <a href="https://es-la.facebook.com/"><img src="Icon/facebook.png" class="icono-social"
+                                alt="facebook"></a>
+                        <a href="https://ar.linkedin.com/"><img src="Icon/linkedin.png" class="icono-social"
+                                alt="linkedin"></a>
+                    </div>
+                    <p>¡Suscríbete! Únete a nuestra comunidad y recibe deliciosas recetas para disfrutar.</p>
+                </div>
+                <div class="text-center pt-4 text-secondary ">
+                    <p>Copyrigth - All rights reserved © 2023</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fin de footer-->
+
+</body>
+
+<!-- jquery -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
